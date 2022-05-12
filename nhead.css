@@ -1,9 +1,18 @@
+@font-face {
+    font-family: MyProduct;
+    src: url('product/Product\ Sans\ Regular.ttf');
+}
+
 html {
     background-color: rgb(121, 76, 76);
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-position: 0%;
     background-attachment: fixed;
+}
+
+body {
+    font-family: "MyProduct", serif
 }
 
 .navi {
@@ -116,9 +125,11 @@ header>a {
 header>a:hover {
     border-bottom: 3px solid rgb(206, 14, 142);
     padding-bottom: 3px;
+    color: blueviolet;
 }
 
 header>.active {
     border-bottom: 3px solid rgb(206, 14, 142);
     padding-bottom: 3px;
+    color: blueviolet;
 }
