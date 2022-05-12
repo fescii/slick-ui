@@ -1,6 +1,6 @@
 @font-face {
-    font-family: MyProduct;
-    src: url('product/Product\ Sans\ Regular.ttf');
+    font-family: 'Product';
+    src: url('product/Product\ Sans\ Regular.ttf') format(TTF), url('product/Product\ Sans\ Bold.ttf'), url('product/Product\ Sans\ Italic.ttf');
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: "MyProduct", serif
+    font-family: "Product";
 }
 
 .navi {
